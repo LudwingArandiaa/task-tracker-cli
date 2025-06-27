@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+doc/
+dist/
+task_tracker.egg-info/

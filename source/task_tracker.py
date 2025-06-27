@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-from source.cli.interface import Task_tracker
-from source.cli.commands import command_map
+from .cli.interface import Task_tracker
+from .cli.commands import command_map
 
+
+"""
+    This is the main function.
+    If the commands arguments of the program are in the command map
+    The cli will execute the function that the arguments said in the call
+    of the program.
+"""
 def main():
     program = Task_tracker()
     if program.arguments.command in command_map:
