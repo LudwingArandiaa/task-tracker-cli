@@ -20,7 +20,7 @@ sudo apt-get install python
 sudo apt-get install git
 ```
 > Use apt installation in linux debian based distributions like Ubuntu, ZorinOS or MintOS.
-> For Windows see the [python installation guide](https://git-scm.com/)
+> For Windows see the [git installation guide](https://git-scm.com/)
 ## ⚙️ Installation
 ### 1. Clone this repository:
 ```bash
