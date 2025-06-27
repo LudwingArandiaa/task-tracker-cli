@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-tracker"
+version = "1.0"
+requires-python = ">=3.12"
+description = "Lightweight command-line application that allows you to manage your tasks efficiently."
+keywords = ["tasks", "tracker", "manager", "cli", "command line interface"]
+authors = [{name = "Ludwing Arandia", email = "ludwingarandia26@gmail.com"}]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Repository = "https://github.com/LudwingArandiaa/task-tracker-cli.git"
+
+[project.scripts]
+task-tracker = "source.task_tracker:main"
